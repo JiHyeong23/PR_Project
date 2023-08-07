@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PR</title>
+</head>
+<body>
+  <a href="http://localhost:8080">처음으로</a>
+  <h1>지원자 정보입니당</h1>
+  <div style="font-weight: bold">이름</div>
+  <div th:text="${name}"></div>
+  <div style="font-weight: bold">생년월일</div>
+  <div th:text="${dob}"></div>
+  <div style="font-weight: bold">이메일</div>
+  <div th:text="${email}"></div>
+  <div style="font-weight: bold">최종학력</div>
+  <div th:text="${loe}"></div>
+  <div style="font-weight: bold">전화번호</div>
+  <div th:text="${phone}"></div>
+</body>
+</html>
